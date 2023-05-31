@@ -107,6 +107,13 @@ img {
     gap: 0.5rem;
 }
 
+.home__img {
+    width: 33vh;
+    margin-left: 1rem;
+    border: 6px solid blueviolet;
+    border-radius: 0.5rem;
+}
+
 .home__p {
     color: gray;
 }
@@ -279,6 +286,12 @@ img {
     gap: 3rem;
     padding: 10rem;
    }
+
+
+   .home__img {
+        width: 272px;
+        border: 6px solid blueviolet;
+    }
 
    .about_me {
     padding: 7rem;
