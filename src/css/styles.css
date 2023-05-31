@@ -14,7 +14,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-    width: 12px;
+    width: 10px;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -96,6 +96,13 @@ img {
     cursor: pointer;
 }
 
+.home__img {
+    width: 30vh;
+    margin: 1rem;
+    filter: drop-shadow(rgba(183, 0, 255, 0.5) 0px -6px 5px);
+    box-shadow: 0 22px 50px -12px blueviolet;
+}
+
 .home {
     color: white;
     min-height: 750px;
@@ -105,13 +112,6 @@ img {
     padding: 3rem;
     font-size: 1.1em;
     gap: 0.5rem;
-}
-
-.home__img {
-    width: 33vh;
-    margin-left: 1rem;
-    border: 6px solid blueviolet;
-    border-radius: 0.5rem;
 }
 
 .home__p {
@@ -290,7 +290,6 @@ img {
 
    .home__img {
         width: 272px;
-        border: 6px solid blueviolet;
     }
 
    .about_me {
