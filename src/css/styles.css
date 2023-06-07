@@ -6,6 +6,11 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    scroll-margin-top: 70px; /*para el menu*/
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
