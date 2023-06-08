@@ -322,10 +322,15 @@ img {
     .paragraph {
         line-height: 1.6rem;
     }
-   
+
     .technologies {
         padding: 5rem;
     }
+
+    
+    .technologies_p {
+        font-size: 1.3rem;
+    } 
 
     .technologies_info {
         width: 1024px;
@@ -339,6 +344,7 @@ img {
     .proyects_p {
         margin-bottom: 3rem;
         margin-left: 3.7rem;
+        font-size: 1.3rem;
     }
 
     .proyects_info {
@@ -377,6 +383,15 @@ img {
 
     .contacto {
         padding: 7rem;
+    }
+
+    .contacto h2 {
+        font-size: 2rem;
+    }
+
+    .contacto p {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
     }
 
     .formulario {
