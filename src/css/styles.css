@@ -238,6 +238,7 @@ img {
 }
 
 .form_info {
+    color: var(--first-color);
     background-color: transparent;
     width: 100%;
     padding: 10px;
