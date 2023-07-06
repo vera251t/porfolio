@@ -20,6 +20,13 @@ function animationScroll() {
 
 window.onscroll = () => animationScroll();
 
+const items = document.getElementsByClassName('item');
+const colors = ['lightcoral', 'skyblue', 'lightyellow', 'lightblue'];
+
+for (let i = 0; i < items.length; i++) {
+  items[i].style.borderColor = colors[i % colors.length];
+}
+
 particlesJS(
     {
         "particles": {
